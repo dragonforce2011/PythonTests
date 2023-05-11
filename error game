@@ -1,0 +1,17 @@
+secret_number = 777
+print(
+"""
++===================================+
+| Bem vindo ao meu jogo, trouxa!    |
+| Insira um número inteiro          |
+| e adivinhar o número que tenho    |
+| escolhidos para você.             |
+| Então, qual é o número secreto?   |
++===================================+
+""")
+bet = int(input("DIGITE O NUMERO"))
+
+while bet != secret_number:
+    print("ERROU!")
+    bet = int(input("TENTE NOVAMENTE"))
+print("Parabéns você acertou")    

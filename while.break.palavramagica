@@ -1,0 +1,6 @@
+word = "chupacabra"
+input("fala a palavra mágica")
+while input != word:
+    input("Errou! tente nomavente")
+    break
+print ("Acertou!")

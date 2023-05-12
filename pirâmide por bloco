@@ -1,0 +1,8 @@
+blocos = int(input("Quantos blocos você tem?"))
+i = 1
+camadas = 0
+while i <= blocos:
+    blocos = blocos-i
+    i += 1
+    camadas += 1
+print(camadas,"camadas")    

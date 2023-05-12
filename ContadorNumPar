@@ -1,0 +1,9 @@
+import time
+print ("numeros pares")
+
+for i in range(1, 101):
+    if i %2!=0:
+        time.sleep(2)    
+        continue
+    print("os pares", i)
+print("fora do loop")    
